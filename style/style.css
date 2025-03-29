@@ -1,4 +1,5 @@
 .attribution {
+  margin-top: 20px;
   font-size: 11px;
   text-align: center;
 }
@@ -13,12 +14,12 @@
   padding: 50px;
   border-radius: 30px;
   margin: 0 auto;
-  width: 500px;
+  width: 700px;
   margin-top: 5rem;
 }
 
 #main img {
-  width: 500px;
+  width: 700px;
   border-radius: 20px;
 }
 
@@ -57,6 +58,7 @@
 }
 
 .prepTime li {
+  margin: 0;
   font-family: "outfit";
   color: var(--stone600);
   margin-top: 10px;
@@ -64,4 +66,91 @@
 
 .prepTime li::marker {
   color: var(--rose800);
+}
+
+/* ingredients */
+
+.ing {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.ing h2 {
+  font-family: "Young Serif";
+  font-weight: 200;
+  color: var(--brown800);
+}
+
+.ing li {
+  margin: 0;
+  font-family: "outfit";
+  color: var(--stone600);
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.ing li span {
+  padding-left: 25px;
+}
+
+.ing li::marker {
+  color: var(--brown800);
+}
+
+/* instructions */
+.int {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.int h2 {
+  font-family: "Young Serif";
+  font-weight: 200;
+  color: var(--brown800);
+}
+
+.int li {
+  color: var(--stone600);
+  font-family: "outfit";
+  margin-bottom: 10px;
+}
+
+.int li p {
+  margin-left: 10px;
+}
+
+/* nutrition */
+.nutr h2 {
+  font-family: "Young Serif";
+  font-weight: 200;
+  color: var(--brown800);
+}
+
+.nutr p {
+  color: var(--stone600);
+  font-family: "Outfit";
+  font-size: small;
+}
+
+.sidebyside-cont {
+  display: flex;
+}
+
+.first {
+  margin-right: 30rem;
+}
+
+table {
+  margin-left: 25px;
+  font-family: "outfit";
+  color: var(--stone600);
+}
+.td {
+  padding-left: 20rem;
+  color: var(--brown800);
+  font-weight: 600;
+}
+
+td {
+  padding-bottom: 10px;
 }
