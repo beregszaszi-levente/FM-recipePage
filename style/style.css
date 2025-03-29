@@ -1,0 +1,67 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* main */
+
+#main {
+  background-color: var(--white);
+  padding: 50px;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 5rem;
+}
+
+#main img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+/* head */
+
+.head h1 {
+  font-size: 40px;
+  font-family: "Young Serif";
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.head p {
+  color: var(--stone600);
+  font-family: "Outfit";
+  font-size: small;
+}
+
+.head {
+  margin-bottom: 50px;
+}
+
+/* prepTime */
+
+.prepTime {
+  margin-left: 20px;
+}
+
+.prepTime h3 {
+  color: var(--rose800);
+  font-family: "outfit";
+}
+
+.prepTime span {
+  padding-left: 25px;
+}
+
+.prepTime li {
+  font-family: "outfit";
+  color: var(--stone600);
+  margin-top: 10px;
+}
+
+.prepTime li::marker {
+  color: var(--rose800);
+}
